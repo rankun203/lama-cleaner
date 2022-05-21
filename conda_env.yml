@@ -1,0 +1,55 @@
+name: lama-cleaner
+channels:
+  - defaults
+dependencies:
+  - _libgcc_mutex=0.1=main
+  - _openmp_mutex=5.1=1_gnu
+  - bzip2=1.0.8=h7b6447c_0
+  - ca-certificates=2022.4.26=h06a4308_0
+  - certifi=2022.5.18.1=py310h06a4308_0
+  - ld_impl_linux-64=2.38=h1181459_1
+  - libffi=3.3=he6710b0_2
+  - libgcc-ng=11.2.0=h1234567_0
+  - libgomp=11.2.0=h1234567_0
+  - libstdcxx-ng=11.2.0=h1234567_0
+  - libuuid=1.0.3=h7f8727e_2
+  - ncurses=6.3=h7f8727e_2
+  - openssl=1.1.1o=h7f8727e_0
+  - pip=21.2.4=py310h06a4308_0
+  - python=3.10.4=h12debd9_0
+  - readline=8.1.2=h7f8727e_1
+  - setuptools=61.2.0=py310h06a4308_0
+  - sqlite=3.38.3=hc218d9a_0
+  - tk=8.6.11=h1ccaba5_1
+  - tzdata=2022a=hda174b7_0
+  - wheel=0.37.1=pyhd3eb1b0_0
+  - xz=5.2.5=h7f8727e_1
+  - zlib=1.2.12=h7f8727e_2
+  - pip:
+    - bleach==5.0.0
+    - cffi==1.15.0
+    - charset-normalizer==2.0.12
+    - commonmark==0.9.1
+    - cryptography==37.0.2
+    - docutils==0.18.1
+    - idna==3.3
+    - importlib-metadata==4.11.3
+    - jeepney==0.8.0
+    - keyring==23.5.0
+    - numpy==1.22.4
+    - opencv-python==4.5.5.64
+    - pkginfo==1.8.2
+    - pycparser==2.21
+    - pygments==2.12.0
+    - readme-renderer==35.0
+    - requests==2.27.1
+    - requests-toolbelt==0.9.1
+    - rfc3986==2.0.0
+    - rich==12.4.1
+    - secretstorage==3.3.2
+    - six==1.16.0
+    - twine==4.0.0
+    - urllib3==1.26.9
+    - webencodings==0.5.1
+    - zipp==3.8.0
+prefix: /home/kun/miniconda3/envs/lama-cleaner
